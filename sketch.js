@@ -50,10 +50,10 @@ thickness = random(22,83);
 function draw() {
   background(128,0,32);  
 
-car1.velocityX=3;
-car2.velocityX=6;
-car3.velocityX=3;
-car4.velocityX=5.4;
+car1.velocityX=speed;
+car2.velocityX=speed;
+car3.velocityX=speed;
+car4.velocityX=speed;
 
 if (wall.x-car1.x < (car1.width+wall.width)/2) {
   car1.velocityX=0;
